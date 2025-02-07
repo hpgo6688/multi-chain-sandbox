@@ -35,6 +35,7 @@ const StyledApp = styled.div`
   display: flex;
   flex-direction: row;
   height: 100vh;
+  width: 100vw;
   @media (max-width: 768px) {
     flex-direction: column;
   }

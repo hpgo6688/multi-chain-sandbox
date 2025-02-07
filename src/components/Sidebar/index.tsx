@@ -48,9 +48,9 @@ const Link = styled.a.attrs({
 })`
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   text-decoration: none;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   // margin-bottom: 30px;
   padding: 5px;
 
@@ -184,7 +184,7 @@ const Sidebar = React.memo((props: Props) => {
     <Main>
       <Body>
         <Link>
-          <img src="https://phantom.app/img/phantom-logo.svg" alt="Phantom" width="200" />
+          <img src="https://phantom.com/favicon/favicon-32x32.png" alt="Phantom" width="32" />
           <Subtitle>Multi-chain Sandbox</Subtitle>
         </Link>
         {connectedAccounts?.solana ? (
